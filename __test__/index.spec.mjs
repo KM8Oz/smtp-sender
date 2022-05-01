@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import { send } from '../index.js'
+import { sum } from '../index.js'
 
-test('send from native', (t) => {
-    t.is(send)
+test('sum from native', (t) => {
+  t.is(sum(1, 2), 3)
 })
