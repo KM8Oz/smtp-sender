@@ -10,12 +10,8 @@
             "defaults": false,
             "additional": [
                 "aarch64-apple-darwin",
-                "aarch64-linux-android",
                 "aarch64-pc-windows-msvc",
-                "x86_64-apple-darwin",
-                "x86_64-pc-windows-msvc",
-                "i686-pc-windows-msvc",
-                "armv7-linux-androideabi"
+                "x86_64-apple-darwin"
             ]
         }
     },
