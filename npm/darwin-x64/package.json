@@ -1,0 +1,19 @@
+{
+  "name": "smtp-sender-darwin-x64",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "smtp-sender.darwin-x64.node",
+  "files": [
+    "smtp-sender.darwin-x64.node"
+  ],
+  "description": "nodejs smtp client that bind the 25 port in localhost no smtp server needed.",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "torlib-node"
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
+napi = { version = "2.3.3", default-features = true, features = ["napi4", "tokio_rt"] }
+napi-derive = "2.3.3"
+mailstrom = "0.7.0"
+email-format = "0.8.0"
+futures = "0.3.21"
+tokio = "1.18.0"
+
+[build-dependencies]
+napi-build = "1.2.1"
+
+[profile.release]
+lto = true

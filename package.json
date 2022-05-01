@@ -1,0 +1,39 @@
+{
+    "name": "smtp-sender",
+    "version": "0.0.0",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "repository": "git@github.com:KM8Oz/smtp-sender.git",
+    "napi": {
+        "name": "smtp-sender",
+        "triples": {
+            "defaults": false,
+            "additional": [
+                "aarch64-apple-darwin",
+                "aarch64-linux-android",
+                "aarch64-pc-windows-msvc",
+                "x86_64-apple-darwin",
+                "x86_64-pc-windows-msvc",
+                "i686-pc-windows-msvc",
+                "armv7-linux-androideabi"
+            ]
+        }
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@napi-rs/cli": "^2.6.2",
+        "ava": "^4.0.1"
+    },
+    "engines": {
+        "node": ">= 10"
+    },
+    "scripts": {
+        "artifacts": "napi artifacts",
+        "build": "napi build --platform --release",
+        "build:debug": "napi build --platform",
+        "prepublishOnly": "napi prepublish -t npm",
+        "test": "ava",
+        "version": "napi version"
+    },
+    "description": "nodejs smtp client that bind the 25 port in localhost no smtp server needed."
+}

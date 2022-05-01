@@ -1,0 +1,19 @@
+{
+  "name": "smtp-sender-win32-arm64-msvc",
+  "version": "0.0.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "smtp-sender.win32-arm64-msvc.node",
+  "files": [
+    "smtp-sender.win32-arm64-msvc.node"
+  ],
+  "description": "nodejs smtp client that bind the 25 port in localhost no smtp server needed.",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "smtp-sender-android-arm64",
+  "version": "0.0.0",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "smtp-sender.android-arm64.node",
+  "files": [
+    "smtp-sender.android-arm64.node"
+  ],
+  "description": "nodejs smtp client that bind the 25 port in localhost no smtp server needed.",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
