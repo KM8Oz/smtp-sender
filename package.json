@@ -1,33 +1,33 @@
 {
-  "name": "smtp-sender",
-  "version": "0.0.0",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "napi": {
     "name": "smtp-sender",
-    "triples": {
-      "defaults": false,
-      "additional": [
-        "aarch64-apple-darwin",
-        "aarch64-pc-windows-msvc",
-        "x86_64-apple-darwin"
-      ]
+    "version": "1.0.5",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "napi": {
+        "name": "smtp-sender",
+        "triples": {
+            "defaults": false,
+            "additional": [
+                "aarch64-apple-darwin",
+                "aarch64-pc-windows-msvc",
+                "x86_64-apple-darwin"
+            ]
+        }
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@napi-rs/cli": "^2.6.2",
+        "ava": "^4.0.1"
+    },
+    "engines": {
+        "node": ">= 10"
+    },
+    "scripts": {
+        "artifacts": "napi artifacts",
+        "build": "napi build --platform --release",
+        "build:debug": "napi build --platform",
+        "prepublishOnly": "napi prepublish -t npm",
+        "test": "ava",
+        "version": "napi version"
     }
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@napi-rs/cli": "^2.6.2",
-    "ava": "^4.0.1"
-  },
-  "engines": {
-    "node": ">= 10"
-  },
-  "scripts": {
-    "artifacts": "napi artifacts",
-    "build": "napi build --platform --release",
-    "build:debug": "napi build --platform",
-    "prepublishOnly": "napi prepublish -t npm",
-    "test": "ava",
-    "version": "napi version"
-  }
 }
