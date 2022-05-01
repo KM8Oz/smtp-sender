@@ -8,7 +8,6 @@
     > `aarch64-apple-darwin`
     > `aarch64-pc-windows-msvc`
     > `x86_64-apple-darwin`
-
 -----------------------------
 
 > usage: 
