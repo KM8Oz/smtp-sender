@@ -1,5 +1,6 @@
-# smtp-sender
-## nodejs smtp client that bind the 25 port in localhost no smtp server needed.
+## smtp-sender: ![GitHub](https://img.shields.io/github/license/KM8Oz/smtp-sender?style=plastic) ![npms.io (quality)](https://img.shields.io/npms-io/quality-score/smtp-sender?style=plastic) ![npm](https://img.shields.io/npm/dw/smtp-sender?style=plastic) ![npm bundle size](https://img.shields.io/bundlephobia/min/smtp-sender?style=plastic)
+
+### nodejs smtp client that bind the 25 port in localhost no smtp server needed.
 
 -----------------------------
 
