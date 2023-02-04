@@ -667,7 +667,7 @@ dependencies = [
  "ctor",
  "lazy_static",
  "napi-sys",
- "tokio 1.18.0",
+ "tokio 1.18.5",
  "windows",
 ]
 
@@ -1199,12 +1199,11 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.18.0"
+version = "1.18.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f48b6d60512a392e34dbf7fd456249fd2de3c83669ab642e021903f4015185b"
+checksum = "0e050c618355082ae5a89ec63bbf897225d5ffe84c7c4e036874e4d185a5044e"
 dependencies = [
  "num_cpus",
- "once_cell",
  "pin-project-lite",
 ]
 
@@ -1385,7 +1384,7 @@ dependencies = [
  "napi",
  "napi-build",
  "napi-derive",
- "tokio 1.18.0",
+ "tokio 1.18.5",
 ]
 
 [[package]]
